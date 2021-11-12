@@ -47,5 +47,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "1. cd frontend/bread-of-life",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
 }
