@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
+  "engines": {
+    "node": "14.17.6"
+  },
   "scripts": {
     "install": "cd frontend/bread-of-life && npm install && cd .. && cd .. && cd backend && npm install",
     "build": "cd frontend/bread-of-life && npm run build",
