@@ -8,8 +8,8 @@
   },
   "scripts": {
     "install": "cd frontend/bread-of-life && npm install && cd .. && cd .. && cd backend && npm install",
-    "build": "cd frontend/bread-of-life && npm run build",
-    "start": "npm install && node ./backend/mainapp.js",
+    "build": "cd .. && cd frontend/bread-of-life && npm run build",
+    "start": "cd .. && cd .. && cd backend && node mainapp.js",
     "heroku-postbuild": "npm run build"
   },
   "author": "",
