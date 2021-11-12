@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd frontend/bread-of-life && npm install && cd ../backend && npm install",
+    "install": "cd frontend/bread-of-life && npm install && cd backend && npm install",
     "build": "cd frontend/bread-of-life && npm run build",
-    "start": "npm install && node ./backend/index.js",
+    "start": "npm install && node ./backend/mainapp.js",
     "heroku-postbuild": "npm run build"
   },
   "author": "",
